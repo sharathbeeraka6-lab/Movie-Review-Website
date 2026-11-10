@@ -1,0 +1,30 @@
+ADD YOUR OWN IMAGES IN THIS FOLDER
+
+Use these filenames to fill every sample image slot:
+hero.jpg
+editorial.jpg
+grand-budapest.jpg
+interstellar.jpg
+past-lives.jpg
+parasite.jpg
+dune.jpg
+everything-everywhere.jpg
+godfather.jpg
+spirited-away.jpg
+la-la-land.jpg
+whiplash.jpg
+arrival.jpg
+dark-knight.jpg
+midnight.jpg
+coming-of-age.jpg
+world-cinema.jpg
+soundtrack.jpg
+avatar-1.jpg
+avatar-2.jpg
+profile.jpg
+
+You can add more image files with any names you like, then reference them in HTML like:
+<img src="images/your-photo.jpg" alt="Description">
+
+Suggested sizes: posters 600x900 px; hero banners 1600x900 px; profile pictures 500x500 px.
+Use images you own or have permission to use.
