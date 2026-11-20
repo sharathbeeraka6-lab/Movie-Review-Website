@@ -10,7 +10,6 @@
     <title>Discover | CINEMORA</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
     <!-- Top announcement line -->
@@ -25,12 +24,10 @@
         <div class="container">
             <nav>
 
-                <!-- Website logo -->
                 <a class="logo" href="index.html">
                     CINE<span>MORA</span>
                 </a>
 
-                <!-- Navigation links -->
                 <div class="nav-links">
                     <a class="" href="index.html">Home</a>
                     <a class="active" href="discover.html">Discover</a>
@@ -40,7 +37,6 @@
                     <a class="" href="diary.html">Diary</a>
                 </div>
 
-                <!-- Write review button -->
                 <a class="nav-cta" href="write-review.html">
                     Write a review ↗
                 </a>
@@ -50,210 +46,253 @@
     </div>
 
     <!-- Main content -->
-    <main class="container">
+    <main class="container" id="top">
 
-        <!-- Page heading -->
         <div class="page-title">
             <div class="eyebrow">Find your next favourite</div>
-
             <h1>Discover cinema.</h1>
-
             <p>
                 Search by title, explore genres and follow the moods
                 that match your evening.
             </p>
         </div>
 
-        <!-- Search box -->
         <div class="searchbox">
-            <input
-                type="search"
-                placeholder="Search films, directors, actors..."
-            >
-
+            <input type="search" placeholder="Search films, directors, actors...">
             <a class="btn" href="#films">Search</a>
         </div>
 
-        <!-- Genre filters -->
+        <!-- Genre buttons -->
         <div class="filters">
             <a class="tag" href="#films">All films</a>
-            <a class="tag" href="#films">Drama</a>
-            <a class="tag" href="#films">Sci-Fi</a>
-            <a class="tag" href="#films">Thriller</a>
-            <a class="tag" href="#films">Comedy</a>
-            <a class="tag" href="#films">Animation</a>
-            <a class="tag" href="#films">Documentary</a>
-            <a class="tag" href="#films">International</a>
+            <a class="tag" href="#drama">Drama</a>
+            <a class="tag" href="#scifi">Sci-Fi</a>
+            <a class="tag" href="#thriller">Thriller</a>
+            <a class="tag" href="#comedy">Comedy</a>
+            <a class="tag" href="#animation">Animation</a>
+            <a class="tag" href="#documentary">Documentary</a>
+            <a class="tag" href="#international">International</a>
         </div>
 
-        <!-- Movie collection -->
-        <section id="films" class="movie-grid">
+        <div id="films">
 
-            <!-- Movie 1: Dune -->
-            <article class="movie-card">
-                <a href="movie.html">
-                    <div class="poster">
-                        <div class="image-slot">
-                            <img src="images/dune.jpg" alt="Dune: Part Two">
-                        </div>
-
-                        <span class="rating">★ 4.7</span>
-                    </div>
-                </a>
-
-                <h3>
-                    <a href="movie.html">Dune: Part Two</a>
-                </h3>
-
-                <div class="meta">2024 · Sci-Fi / Adventure</div>
-            </article>
-
-            <!-- Movie 2: Everything Everywhere All at Once -->
-            <article class="movie-card">
-                <a href="movie.html">
-                    <div class="poster">
-                        <div class="image-slot">
-                            <img
-                                src="images/everything-everywhere.jpg"
-                                alt="Everything Everywhere All at Once"
-                            >
-                        </div>
-
-                        <span class="rating">★ 4.6</span>
-                    </div>
-                </a>
-
-                <h3>
-                    <a href="movie.html">
-                        Everything Everywhere All at Once
-                    </a>
-                </h3>
-
-                <div class="meta">2022 · Adventure / Comedy</div>
-            </article>
-
-            <!-- Movie 3: The Godfather -->
-            <article class="movie-card">
-                <a href="movie.html">
-                    <div class="poster">
-                        <div class="image-slot">
-                            <img src="images/godfather.jpg" alt="The Godfather">
-                        </div>
-
-                        <span class="rating">★ 4.9</span>
-                    </div>
-                </a>
-
-                <h3>
-                    <a href="movie.html">The Godfather</a>
-                </h3>
-
-                <div class="meta">1972 · Crime / Drama</div>
-            </article>
-
-            <!-- Movie 4: Spirited Away -->
-            <article class="movie-card">
-                <a href="movie.html">
-                    <div class="poster">
-                        <div class="image-slot">
-                            <img src="images/spirited-away.jpg" alt="Spirited Away">
-                        </div>
-
-                        <span class="rating">★ 4.8</span>
-                    </div>
-                </a>
-
-                <h3>
-                    <a href="movie.html">Spirited Away</a>
-                </h3>
-
-                <div class="meta">2001 · Animation / Fantasy</div>
-            </article>
-
-            <!-- Movie 5: La La Land -->
-            <article class="movie-card">
-                <a href="movie.html">
-                    <div class="poster">
-                        <div class="image-slot">
-                            <img src="images/la-la-land.jpg" alt="La La Land">
-                        </div>
-
-                        <span class="rating">★ 4.5</span>
-                    </div>
-                </a>
-
-                <h3>
-                    <a href="movie.html">La La Land</a>
-                </h3>
-
-                <div class="meta">2016 · Musical / Romance</div>
-            </article>
-
-            <!-- Movie 6: Whiplash -->
-            <article class="movie-card">
-                <a href="movie.html">
-                    <div class="poster">
-                        <div class="image-slot">
-                            <img src="images/whiplash.jpg" alt="Whiplash">
-                        </div>
-
-                        <span class="rating">★ 4.8</span>
-                    </div>
-                </a>
-
-                <h3>
-                    <a href="movie.html">Whiplash</a>
-                </h3>
-
-                <div class="meta">2014 · Drama / Music</div>
-            </article>
-
-            <!-- Movie 7: Arrival -->
-            <article class="movie-card">
-                <a href="movie.html">
-                    <div class="poster">
-                        <div class="image-slot">
-                            <img src="images/arrival.jpg" alt="Arrival">
-                        </div>
-
-                        <span class="rating">★ 4.6</span>
-                    </div>
-                </a>
-
-                <h3>
-                    <a href="movie.html">Arrival</a>
-                </h3>
-
-                <div class="meta">2016 · Sci-Fi / Drama</div>
-            </article>
-
-            <!-- Movie 8: The Dark Knight -->
-            <article class="movie-card">
-                <a href="movie.html">
-                    <div class="poster">
-                        <div class="image-slot">
-                            <img src="images/dark-knight.jpg" alt="The Dark Knight">
-                        </div>
-
-                        <span class="rating">★ 4.8</span>
-                    </div>
-                </a>
-
-                <h3>
-                    <a href="movie.html">The Dark Knight</a>
-                </h3>
-
-                <div class="meta">2008 · Action / Crime</div>
-            </article>
-
+        <!-- ===== DRAMA ===== -->
+        <section class="genre-row" id="drama">
+            <div class="section-head">
+                <div><div class="eyebrow">Genre</div><h2>Drama</h2></div>
+                <a class="text-link" href="#top">Back to filters ↑</a>
+            </div>
+            <div class="movie-grid">
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/godfather.jpg" alt="The Godfather" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.9</span></div></a>
+                    <h3><a href="movie.html">The Godfather</a></h3>
+                    <div class="meta">1972 · Crime / Drama</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/whiplash.jpg" alt="Whiplash" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.8</span></div></a>
+                    <h3><a href="movie.html">Whiplash</a></h3>
+                    <div class="meta">2014 · Drama / Music</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/la-la-land.jpg" alt="La La Land" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.5</span></div></a>
+                    <h3><a href="movie.html">La La Land</a></h3>
+                    <div class="meta">2016 · Musical / Romance</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/past-lives.jpg" alt="Past Lives" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.7</span></div></a>
+                    <h3><a href="movie.html">Past Lives</a></h3>
+                    <div class="meta">2023 · Drama / Romance</div>
+                </article>
+            </div>
         </section>
+
+        <!-- ===== SCI-FI ===== -->
+        <section class="genre-row" id="scifi">
+            <div class="section-head">
+                <div><div class="eyebrow">Genre</div><h2>Sci-Fi</h2></div>
+                <a class="text-link" href="#top">Back to filters ↑</a>
+            </div>
+            <div class="movie-grid">
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/dune.jpg" alt="Dune: Part Two" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.7</span></div></a>
+                    <h3><a href="movie.html">Dune: Part Two</a></h3>
+                    <div class="meta">2024 · Sci-Fi / Adventure</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/arrival.jpg" alt="Arrival" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.6</span></div></a>
+                    <h3><a href="movie.html">Arrival</a></h3>
+                    <div class="meta">2016 · Sci-Fi / Drama</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/interstellar.jpg" alt="Interstellar" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.9</span></div></a>
+                    <h3><a href="movie.html">Interstellar</a></h3>
+                    <div class="meta">2014 · Sci-Fi / Drama</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/inception.jpg" alt="Inception" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.8</span></div></a>
+                    <h3><a href="movie.html">Inception</a></h3>
+                    <div class="meta">2010 · Sci-Fi / Thriller</div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== THRILLER ===== -->
+        <section class="genre-row" id="thriller">
+            <div class="section-head">
+                <div><div class="eyebrow">Genre</div><h2>Thriller</h2></div>
+                <a class="text-link" href="#top">Back to filters ↑</a>
+            </div>
+            <div class="movie-grid">
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/dark-knight.jpg" alt="The Dark Knight" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.8</span></div></a>
+                    <h3><a href="movie.html">The Dark Knight</a></h3>
+                    <div class="meta">2008 · Action / Crime</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/se7en.jpg" alt="Se7en" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.7</span></div></a>
+                    <h3><a href="movie.html">Se7en</a></h3>
+                    <div class="meta">1995 · Crime / Thriller</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/gone-girl.jpg" alt="Gone Girl" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.5</span></div></a>
+                    <h3><a href="movie.html">Gone Girl</a></h3>
+                    <div class="meta">2014 · Mystery / Thriller</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/prisoners.jpg" alt="Prisoners" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.6</span></div></a>
+                    <h3><a href="movie.html">Prisoners</a></h3>
+                    <div class="meta">2013 · Crime / Thriller</div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== COMEDY ===== -->
+        <section class="genre-row" id="comedy">
+            <div class="section-head">
+                <div><div class="eyebrow">Genre</div><h2>Comedy</h2></div>
+                <a class="text-link" href="#top">Back to filters ↑</a>
+            </div>
+            <div class="movie-grid">
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/everything-everywhere.jpg" alt="Everything Everywhere All at Once" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.6</span></div></a>
+                    <h3><a href="movie.html">Everything Everywhere All at Once</a></h3>
+                    <div class="meta">2022 · Adventure / Comedy</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/grand-budapest-hotel.jpg" alt="The Grand Budapest Hotel" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.6</span></div></a>
+                    <h3><a href="movie.html">The Grand Budapest Hotel</a></h3>
+                    <div class="meta">2014 · Comedy / Drama</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/knives-out.jpg" alt="Knives Out" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.5</span></div></a>
+                    <h3><a href="movie.html">Knives Out</a></h3>
+                    <div class="meta">2019 · Comedy / Mystery</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/jojo-rabbit.jpg" alt="Jojo Rabbit" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.4</span></div></a>
+                    <h3><a href="movie.html">Jojo Rabbit</a></h3>
+                    <div class="meta">2019 · Comedy / War</div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== ANIMATION ===== -->
+        <section class="genre-row" id="animation">
+            <div class="section-head">
+                <div><div class="eyebrow">Genre</div><h2>Animation</h2></div>
+                <a class="text-link" href="#top">Back to filters ↑</a>
+            </div>
+            <div class="movie-grid">
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/spirited-away.jpg" alt="Spirited Away" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.8</span></div></a>
+                    <h3><a href="movie.html">Spirited Away</a></h3>
+                    <div class="meta">2001 · Animation / Fantasy</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/spider-verse.jpg" alt="Spider-Man: Into the Spider-Verse" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.7</span></div></a>
+                    <h3><a href="movie.html">Into the Spider-Verse</a></h3>
+                    <div class="meta">2018 · Animation / Action</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/coco.jpg" alt="Coco" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.6</span></div></a>
+                    <h3><a href="movie.html">Coco</a></h3>
+                    <div class="meta">2017 · Animation / Family</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/princess-mononoke.jpg" alt="Princess Mononoke" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.7</span></div></a>
+                    <h3><a href="movie.html">Princess Mononoke</a></h3>
+                    <div class="meta">1997 · Animation / Fantasy</div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== DOCUMENTARY ===== -->
+        <section class="genre-row" id="documentary">
+            <div class="section-head">
+                <div><div class="eyebrow">Genre</div><h2>Documentary</h2></div>
+                <a class="text-link" href="#top">Back to filters ↑</a>
+            </div>
+            <div class="movie-grid">
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/free-solo.jpg" alt="Free Solo" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.7</span></div></a>
+                    <h3><a href="movie.html">Free Solo</a></h3>
+                    <div class="meta">2018 · Documentary / Adventure</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/my-octopus-teacher.jpg" alt="My Octopus Teacher" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.5</span></div></a>
+                    <h3><a href="movie.html">My Octopus Teacher</a></h3>
+                    <div class="meta">2020 · Documentary / Nature</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/senna.jpg" alt="Senna" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.6</span></div></a>
+                    <h3><a href="movie.html">Senna</a></h3>
+                    <div class="meta">2010 · Documentary / Sport</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/icarus.jpg" alt="Icarus" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.4</span></div></a>
+                    <h3><a href="movie.html">Icarus</a></h3>
+                    <div class="meta">2017 · Documentary / Sport</div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== INTERNATIONAL ===== -->
+        <section class="genre-row" id="international">
+            <div class="section-head">
+                <div><div class="eyebrow">Genre</div><h2>International</h2></div>
+                <a class="text-link" href="#top">Back to filters ↑</a>
+            </div>
+            <div class="movie-grid">
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/parasite.jpg" alt="Parasite" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.9</span></div></a>
+                    <h3><a href="movie.html">Parasite</a></h3>
+                    <div class="meta">2019 · Thriller / Drama</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/city-of-god.jpg" alt="City of God" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.8</span></div></a>
+                    <h3><a href="movie.html">City of God</a></h3>
+                    <div class="meta">2002 · Crime / Drama</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/pans-labyrinth.jpg" alt="Pan's Labyrinth" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.7</span></div></a>
+                    <h3><a href="movie.html">Pan's Labyrinth</a></h3>
+                    <div class="meta">2006 · Fantasy / War</div>
+                </article>
+                <article class="movie-card">
+                    <a href="movie.html"><div class="poster"><div class="image-slot"><img src="images/amelie.jpg" alt="Amélie" width="1200" height="1800" loading="lazy"></div><span class="rating">★ 4.5</span></div></a>
+                    <h3><a href="movie.html">Amélie</a></h3>
+                    <div class="meta">2001 · Romance / Comedy</div>
+                </article>
+            </div>
+        </section>
+
+        </div>
 
         <!-- Instructions for adding images and movies -->
         <div class="note">
             Image tip: add your own poster files to the
-            <b>images</b> folder using the filenames shown below
-            each image slot. You can add as many film cards as you
-            want by copying a card's HTML.
+            <b>images</b> folder using the filenames in each card's
+            <b>src</b>. To add a film, copy a card's HTML.
         </div>
 
     </main>
@@ -268,7 +307,7 @@
 
             <span>
                 <a href="profile.html">Profile</a>
-                　·　
+                ·
                 <a href="login.html">Sign in</a>
             </span>
 
@@ -276,4 +315,5 @@
     </footer>
 
 </body>
+
 </html>
