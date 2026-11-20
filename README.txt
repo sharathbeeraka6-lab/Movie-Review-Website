@@ -2,7 +2,7 @@ CINEMORA — HTML + CSS MOVIE REVIEW WEBSITE
 ==========================================
 
 WHAT IS INCLUDED
-- 14 linked HTML pages
+- 15 linked HTML pages
 - One shared responsive stylesheet: css/style.css
 - An images folder with a guide for your own posters, banners and profile pictures
 - No JavaScript, React, Bootstrap or Tailwind
@@ -37,6 +37,7 @@ critics.html        Critics profiles
 rankings.html       Film rankings
 collections.html    Curated collections
 watchlist.html      Watchlist sample
+trailer.html        Film trailer
 diary.html          Watched-film diary
 compare.html        Compare two films
 profile.html        User profile
